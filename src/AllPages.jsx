@@ -34,7 +34,7 @@ function AllPages() {
         navigate("/Contact")
     }
     const CV = () => {
-        window.open("/public/SOC_Resume.pdf", "_blank")
+        window.open("/Resume_v0 (1).pdf", "_blank")
 
     }
 
