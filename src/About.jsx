@@ -18,7 +18,7 @@ function About() {
         navigate("/Contact")
     }
     const CV =()=>{
-       window.open("/public/SOC_Resume.docx", "_blank")
+       window.open("/Resume_v0 (1).pdf", "_blank")
 
     }
 
