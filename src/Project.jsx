@@ -98,7 +98,7 @@ function Project() {
         <div>
        <h1 className="font-mono text-[15px]  md:text-xl my-2 text-black text-center">Introduction To Cybersecurity by Cisco</h1>
           <a  target="_blank" 
-          href="public\Introduction_to_Cybersecurity_certificate_virendrarao23-ca-jspmuni-ac-in_a197cbfe-68d6-4577-a39e-21f67c4c3434.pdf"
+          href="/Introduction_to_Cybersecurity_certificate_virendrarao23-ca-jspmuni-ac-in_a197cbfe-68d6-4577-a39e-21f67c4c3434.pdf"
           >
           <button className="border border-blue-400 px-3 py-1  text-blue-500 rounded-md mb-1 mt-2 font-semibold active:scale-95 hover:bg-blue-500 hover:text-white transition">
             View 
@@ -146,7 +146,7 @@ function Project() {
                             <div>
                                 <h1 className="font-mono text-[15px]  md:text-xl my-2 text-black text-center">SOC Level 1 & 2 by Udemy</h1>
                                 <a target="_blank"
-                                    href="public\SOC_L1&2_Udemy.pdf"
+                                    href="/SOC_L1&2_Udemy.pdf"
                                 >
                                     <button className="border border-blue-400 px-3 py-1  text-blue-500 rounded-md mb-1 mt-2 font-semibold active:scale-95 hover:bg-blue-500 hover:text-white transition">
                                         View 
