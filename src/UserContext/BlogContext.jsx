@@ -164,8 +164,70 @@ export function BlogProvider({ children }) {
         }
       ]
     },
+   { // Last Update 8 march 2026
+  id: 3,
+  section: "Mini Firewall Simulator: Blocking Malicious IPs",
+  title: "Simulating a Firewall in Python: IP Blocking and Alerts",
+  img: "/Firewal_Rule_Using_python.png",
+  sections: [
+    {
+      heading: "Introduction",
+      description: "Firewalls are critical in protecting networks from unauthorized access. In this project, I built a Python program that simulates a firewall, checking incoming IP addresses against a predefined set of rules and generating alerts for blocked IPs. This demonstrates basic network security concepts and Python programming skills.",
+      points: []
+    },
+    {
+      heading: "Defining Firewall Rules",
+      description: "The firewall rules are stored in a Python dictionary, mapping specific IP addresses to actions like 'block' or 'allow'. This allows the program to quickly determine whether an incoming IP should be blocked.",
+      points: [
+        "Used a Python dictionary to store IP addresses and actions.",
+        "Blocked IPs include examples like 192.168.1.1, 192.168.1.5, and 192.168.1.10.",
+        "Any IP not in the dictionary is automatically allowed."
+      ]
+    },
+    {
+      heading: "Generating Random IP Addresses",
+      description: "Random IPs are generated to simulate incoming network traffic, helping test the firewall logic effectively.",
+      points: [
+        "Used Python's random module to simulate traffic.",
+        "Generated IPs range from 192.168.1.1 to 192.168.1.255.",
+        "Each IP is checked against the firewall rules to determine the action."
+      ]
+    },
+    {
+      heading: "Checking IPs Against the Firewall",
+      description: "The program checks each IP against the firewall rules. Blocked IPs trigger an alert, while allowed IPs are printed normally.",
+      points: [
+        "Implemented a function that returns 'block' or 'allow'.",
+        "Blocked IPs generate alerts to simulate security monitoring.",
+        "Allowed IPs show normal network traffic."
+      ]
+    },
+    {
+      heading: "Simulation Loop",
+      description: "A loop simulates multiple incoming IP addresses and applies firewall rules to each, showing how a firewall monitors traffic over time.",
+      points: [
+        "Looped 20 times to simulate multiple IP addresses.",
+        "Alerts are printed for blocked IPs, while allowed IPs display normal access.",
+        "Demonstrates practical usage of loops and conditional logic in Python."
+      ]
+    },
+    {
+      heading: "Key Takeaways",
+      description: "This mini firewall project demonstrates the basics of network security and Python programming:",
+      points: [
+        "Using dictionaries for fast lookup of firewall rules.",
+        "Generating and testing random network traffic.",
+        "Implementing logic to block or allow IPs based on rules.",
+        "Simulating alerts for blocked IPs to mimic real firewall monitoring."
+      ]
+    }
+  ]
+}
+    
     
   ]);
+
+  
 
   const getPost = (id) => posts.find(p => p.id === Number(id));
 
