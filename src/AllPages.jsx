@@ -385,7 +385,7 @@ I’m eager to begin my journey as a defence, contribute to real-world security 
                 </form>
 
                 <div className="w-full flex  sm:flex-row gap-4 sm:gap-8 justify-center items-center mt-8">
-                    <a href="/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/virendra-rao-581b37364/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="w-8 h-8 sm:w-10 sm:h-10 text-blue-700 hover:scale-110 transition" />
                     </a>
                     <a href="https://www.instagram.com/varunrao123/" target="_blank" rel="noopener noreferrer">
