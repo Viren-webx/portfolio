@@ -43,11 +43,11 @@ function Navbar() {
 
 
   return <>
-            <header className="bg-white w-full p-2 flex flex-col md:flex-row border-[5px] shadow-sm shadow-gray-500 rounded-md justify-between items-center">
+            <header className=" w-full p-2 flex flex-col md:flex-row  rounded-md justify-between items-center">
                 <div className="flex items-center w-full md:w-auto justify-between">
-                    <div className="h-[40px] ml-7 md:ml-8  w-[40px] rounded-full flex justify-center items-center">
+                    <div className="h-[40px] ml-7  md:ml-8  w-[40px] rounded-full flex justify-center items-center">
                         <img className="h-[40px] w-[40px] rounded-full" src={LogoVR} alt="Logo" />
-                        <span className='ml-1 font-bold text-[18px] text-black'>Portfolio</span>
+                        <span className='ml-1 font-bold text-[18px] text-white'>Portfolio</span>
                     </div>
                     {/* Hamburger Icon */}
                     <button
@@ -61,35 +61,35 @@ function Navbar() {
                     </button>
                        </div>
                 {/* Navigation Links */}
-                <div className={`flex-col md:flex-row flex w-full md:w-auto justify-center md:space-x-[90px] items-center font-bold text-lg
+                <div className={`flex-col text-white/90 bg-black/60 p-4 mt-11 rounded-2xl md:flex-row flex w-full md:w-auto justify-center md:space-x-[40px] items-center  text-lg
                     ${menuOpen ? "flex" : "hidden"} md:flex mt-2 md:mt-0`}>
                     <a
                         onClick={handleClickHome}
-                        className={`text-gray-800 hover:text-yellow-400 cursor-pointer ${location.pathname === "/" ? "underline text-yellow-400" : ""} my-2 md:my-0`}
+                        className={` hover:text-white  cursor-pointer ${location.pathname === "/" ? "underline text-gray-200" : ""} my-2 md:my-0`}
                     >
                         Home
                     </a>
                     <a
                         onClick={handleClickAbout}
-                        className={`text-gray-800 hover:text-yellow-400 cursor-pointer ${location.pathname === "/about" ? "underline text-yellow-400" : ""} my-2 md:my-0`}
+                        className={` hover:text-white cursor-pointer ${location.pathname === "/about" ? "underline text-gray-200" : ""} my-2 md:my-0`}
                     >
                         About
                     </a>
                     <a
                         onClick={handleClickBlog}
-                        className={`text-gray-800 hover:text-yellow-400 cursor-pointer ${location.pathname === "/blog" ? "underline text-yellow-400" : ""} my-2 md:my-0`}
+                        className={` hover:text-white cursor-pointer ${location.pathname === "/blog" ? "underline text-gray-200" : ""} my-2 md:my-0`}
                     >
                         Blog
                     </a>
                     <a
                         onClick={handleClickProject}
-                        className={`text-gray-800 hover:text-yellow-400 cursor-pointer ${location.pathname === "/project" ? "underline text-yellow-400" : ""} my-2 md:my-0`}
+                        className={` hover:text-white cursor-pointer ${location.pathname === "/project" ? "underline text-gray-200" : ""} my-2 md:my-0`}
                     >
                         Achievement
                     </a>
                        <a
                         onClick={handleClickContact}
-                        className={`text-gray-800 hover:text-yellow-400 cursor-pointer ${location.pathname === "/contact" ? "underline text-yellow-400" : ""} my-2 md:my-0`}
+                        className={` hover:text-white cursor-pointer ${location.pathname === "/contact" ? "underline text-gray-200" : ""} my-2 md:my-0`}
                     >
                         Contact
                     </a>
