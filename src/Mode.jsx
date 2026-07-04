@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import "./App.css"
 
 function Mode() {
     // Get initial mode from localStorage or default to false
@@ -10,7 +9,7 @@ function Mode() {
 
     useEffect(() => {
         // Set body classes for background and text color
-        document.body.className = darkMode ? "bg-gray-900 text-white" : "bg-white text-black";
+        document.body.className = darkMode ? "bg-gray-900 text-white" : "bg-[#FFEED6] text-black";
         // Save mode to localStorage
         localStorage.setItem("darkMode", darkMode);
     }, [darkMode]);
